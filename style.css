@@ -1,0 +1,482 @@
+/* =========================
+   GENERAL
+========================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 70px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #252333;
+    background: #ffffff;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar-default {
+    background: rgba(255,255,255,0.97);
+    border: none;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+    padding-top: 23px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #292638 !important;
+}
+
+.navbar-brand span {
+    color: #6c63ff;
+}
+
+.navbar-nav > li > a {
+    padding: 25px 16px;
+    color: #6d6977 !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.navbar-nav > li > a:hover {
+    color: #6c63ff !important;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    padding: 100px 0;
+    background:
+        radial-gradient(circle at 90% 20%, #eae8ff, transparent 25%),
+        radial-gradient(circle at 10% 80%, #e7f8f4, transparent 25%),
+        #fafaff;
+}
+
+.hero-text {
+    padding-top: 35px;
+}
+
+.hero-label {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #6c63ff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    max-width: 650px;
+    margin: 0 0 25px;
+    font-size: 50px;
+    line-height: 1.18;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+}
+
+.hero h1 span {
+    color: #6c63ff;
+}
+
+.hero p {
+    max-width: 570px;
+    color: #817d8b;
+    font-size: 14px;
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+.btn-primary-custom {
+    padding: 14px 23px;
+    border: none;
+    border-radius: 9px;
+    background: #6c63ff;
+    color: white !important;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0 12px 25px rgba(108,99,255,0.22);
+}
+
+.btn-primary-custom:hover {
+    background: #574fdc;
+}
+
+
+/* HERO CARD */
+
+.hero-card {
+    min-height: 390px;
+    margin: 0 auto;
+    padding: 45px 35px;
+    max-width: 360px;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(145deg,#6c63ff,#918aff);
+    color: white;
+    box-shadow: 0 25px 50px rgba(76,69,180,0.2);
+}
+
+.hero-icon {
+    width: 105px;
+    height: 105px;
+    margin: 10px auto 25px;
+    padding-top: 25px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.17);
+    font-size: 48px;
+}
+
+.hero-card h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.hero-card p {
+    margin: auto;
+    color: rgba(255,255,255,0.78);
+    font-size: 11px;
+}
+
+.mini-stat {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+
+.mini-stat strong {
+    display: block;
+    font-size: 20px;
+}
+
+.mini-stat small {
+    color: rgba(255,255,255,0.65);
+    font-size: 9px;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.section {
+    padding: 90px 0;
+}
+
+.section-title {
+    margin-bottom: 55px;
+}
+
+.section-title > span {
+    display: block;
+    margin-bottom: 10px;
+    color: #6c63ff;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-title h2 {
+    margin: 0 0 12px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section-title h2 strong {
+    color: #6c63ff;
+}
+
+.section-title p {
+    color: #96919d;
+    font-size: 12px;
+}
+
+
+/* =========================
+   GUIDE CARDS
+========================= */
+
+.guide-card {
+    position: relative;
+    display: block;
+    min-height: 250px;
+    margin-bottom: 25px;
+    padding: 30px;
+    border: 1px solid #eeeef4;
+    border-radius: 17px;
+    background: white;
+    color: #282432;
+    box-shadow: 0 8px 25px rgba(42,36,57,0.04);
+    transition: 0.3s;
+}
+
+.guide-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 18px 35px rgba(42,36,57,0.09);
+    border-color: #dcd9ff;
+}
+
+.guide-icon {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 22px;
+    padding-top: 16px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.guide-icon.blue {
+    background: #edf5ff;
+}
+
+.guide-icon.green {
+    background: #eaf9f2;
+}
+
+.guide-icon.purple {
+    background: #f1efff;
+}
+
+.guide-icon.orange {
+    background: #fff5e8;
+}
+
+.guide-icon.pink {
+    background: #fff0f5;
+}
+
+.guide-icon.yellow {
+    background: #fff9dc;
+}
+
+.guide-card h3 {
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.guide-card p {
+    min-height: 55px;
+    color: #8b8792;
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+.guide-card > span,
+.bonus-card a {
+    color: #6c63ff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   TOOLS
+========================= */
+
+.tools-section {
+    padding: 90px 0;
+    background: #f8f8fc;
+}
+
+.tool-card {
+    min-height: 245px;
+    margin-bottom: 20px;
+    padding: 30px 25px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 6px 20px rgba(42,36,57,0.04);
+}
+
+.tool-logo {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 18px;
+    padding-top: 13px;
+    text-align: center;
+    border-radius: 12px;
+    background: #eeeefe;
+    color: #6c63ff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tool-card h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.tool-card p {
+    min-height: 50px;
+    color: #8c8792;
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+.tool-card a {
+    color: #6c63ff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   TIPS
+========================= */
+
+.tips-section {
+    padding: 95px 0;
+    background: #272431;
+    color: white;
+}
+
+.tips-section h2 {
+    max-width: 450px;
+    margin: 0 0 22px;
+    font-size: 35px;
+    line-height: 1.35;
+}
+
+.tips-section h2 span {
+    color: #8f88ff;
+}
+
+.tips-section > .container > .row > .col-md-5 > p {
+    max-width: 430px;
+    color: #aaa6b0;
+    font-size: 11px;
+    line-height: 1.9;
+}
+
+.tip-item {
+    display: flex;
+    gap: 25px;
+    padding: 19px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.tip-item b {
+    color: #8f88ff;
+    font-size: 11px;
+}
+
+.tip-item h3 {
+    margin: 0 0 7px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tip-item p {
+    margin: 0;
+    color: #aaa6b0;
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 35px 0;
+    background: #1d1a23;
+    color: #88838d;
+}
+
+footer h3 {
+    margin-top: 0;
+    color: white;
+    font-size: 16px;
+}
+
+footer h3:first-letter {
+    color: #6c63ff;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 9px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+    .hero-text {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .hero h1,
+    .hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-card {
+        margin-top: 50px;
+    }
+
+    .tips-section h2 {
+        margin-bottom: 35px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    body {
+        padding-top: 50px;
+    }
+
+    .navbar-nav > li > a {
+        padding: 12px 20px;
+    }
+
+    .hero {
+        padding: 65px 0;
+    }
+
+    .hero h1 {
+        font-size: 37px;
+    }
+
+    .section,
+    .tools-section,
+    .tips-section {
+        padding: 65px 0;
+    }
+
+    .section-title h2 {
+        font-size: 27px;
+    }
+
+    .tips-section h2 {
+        font-size: 29px;
+    }
+
+    footer .text-right {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+}
